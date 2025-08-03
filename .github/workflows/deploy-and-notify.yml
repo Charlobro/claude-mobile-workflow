@@ -83,7 +83,9 @@ jobs:
           
           🔗 **Testez ici:** https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
           
-          💬 **Feedback:** Créez une issue sur GitHub avec vos commentaires
+          💬 **Laissez votre feedback ici:** https://github.com/${{ github.repository }}/issues
+          
+          ▶️ Cliquez "New issue" puis choisissez le template "📱 Feedback de test mobile"
           
           Claude reprendra le travail dès que vous lui donnerez le feedback !
         to: ${{ secrets.EMAIL_TO }}
